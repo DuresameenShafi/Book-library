@@ -388,13 +388,13 @@ header .menu {
     background-color: black !important;
     color: #fff !important;
     font-weight: bold;
-    padding: 7px;
-    margin-top: 10px;
+    padding: 8px;
     margin-bottom: 20px;
     cursor: pointer !important;
     transition: transform .4s;
     font-family: 'Agbalumo', system-ui;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .head-2 {
@@ -424,12 +424,12 @@ header .menu {
     .add-btn {
         background-color: #f1926c;
         font-weight: bold;
-        padding: 5px;
-        margin-top: -px;
+        padding: 7px;
         margin-bottom: 30px;
         cursor: pointer;
         transition: transform .4s;
         font-family: 'Agbalumo', system-ui;
+        font-size: small;
 
     }
 
@@ -449,6 +449,7 @@ header .menu {
 
     h4 {
         font-size: small !important;
+        margin-bottom: 30px !important;
 
     }
 
@@ -607,6 +608,7 @@ header .menu {
 
         h4 {
             font-size: small !important;
+            margin-bottom: 60px !important;
         }
 
     }
@@ -633,12 +635,15 @@ header .menu {
     h4 {
         font-size: small !important;
         padding-left: 60px;
+        margin-bottom:40px !important ;
+
     }
 
     .add-btn {
         margin-left: 60px;
         height: 40px;
         font-family: 'Agbalumo', system-ui;
+        margin-top: 100px !important;
 
     }
 
@@ -669,6 +674,7 @@ header .menu {
     h4 {
         font-size: large !important;
         padding-left: 60px;
+        margin-bottom:40px !important ;
     }
 
     .add-btn {
@@ -714,6 +720,7 @@ header .menu {
     h4 {
         font-size: large !important;
         padding-left: 60px;
+        margin-bottom:40px !important ;
     }
 
     .add-btn {

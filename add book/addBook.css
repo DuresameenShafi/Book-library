@@ -1,328 +1,55 @@
-/* Globals  */
-/* * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    scroll-padding: 2rem;
-} */
-
-/* Variables  */
-:root {
-    --main-color: #fd4646;
-
-    --text-color: #171427;
-    --bg-color: #fff;
+ .img{
+   width:  180px !important;
+   height: 200px !important;
+   margin-top: 110px;                
 }
-
-::selection {
-    color: var(--text-color);
-    background-color: var(--main-color);
+.box{
+    border: none !important;
 }
-
- .container {
-    max-width: 1068px;
-    margin: auto;
-    width: 100%;
-} 
-
-section {
-    padding: 4rem 0 3rem;
-} 
-
-body {
-    color: var(--text-color);
-}
-
-img {
-    width: 100%;
-}
-
-/* =======================================  */
-/* HEADER  */
-.logo-box {
-    position: fixed;
-    top: 100px;
-    left: 0;
-    width: 100%;
-
+.section-title{
     
-     z-index: 100; 
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
-}
-
-/* .logo {
-    font-size: 2rem;
-    font-weight: bolder;
-    color: black;
-    /* text-transform: uppercase;  
-    font-family: 'Satisfy', cursive;
-
-} */
-
-.logo span {
-    color: var(--main-color);
-    font-weight: 700;
-}
-
-#cart-icon {
-    font-size: 1.8rem;
-    cursor: pointer;
-   
-}
-
-/* CART  */
-.cart {
-    position: fixed;
-    top: 89px;
-    right: 0;
-    right: -100%;
-    width: 360px;
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 20px;
-    background-color: bisque;
-    box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
-    border: 1px solid var(--main-color);
-    transition: 1.5s;
-}
-
-@media (max-width:400px) {
-    .cart {
-        top: 55px;
-
-    }
-}
-
-.cart.active {
-    right: 0;
-    transition: .5s;
-}
-
-.cart-title {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2rem;
-    font-family: 'Agbalumo', system-ui;
-}
-
-.cart-box {
-    display: grid;
-    grid-template-columns: 32% 50% 18%;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.cart-img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    padding: 10px;
-}
-
-.detail-box {
-    display: grid;
-    row-gap: .5rem;
-}
-
-.cart-product-title {
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-.cart-price {
-    font-weight: 500;
-}
-
-.cart-quantity {
-    border: 1px solid var(--text-color);
-    outline-color: var(--main-color);
-    width: 2.4rem;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.cart-remove {
-    font-size: 24px;
-    color: var(--main-color);
-    cursor: pointer;
-}
-
-.total {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 1.5rem;
-    border-top: 1px solid var(--text-color);
-}
-
-.total-title {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.total-price {
-    margin-left: .5rem;
-}
-
-.btn-buy {
-    display: flex;
-    margin: 1.5rem auto 0 auto;
-    padding: 12px 20px;
-    border: none;
-    background-color: #f88659;
-    color: var(--bg-color);
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: 'Agbalumo', system-ui;
-}
-
-.btn-buy:hover {
-    background-color: var(--text-color);
-}
-
-#cart-close {
-    position: absolute;
-    top: 1rem;
-    right: .8rem;
-    font-size: 2rem;
-    color: var(--text-color);
-    cursor: pointer;
-}
-
-/* SHOP SECTION  */
-.shop {
-    margin-top: 2rem;
-}
-
-.section-title {
     font-size: 2.9rem !important;
     font-weight: 900 !important;
-    text-align: center;
     margin-bottom: 1.5rem;
     font-family: 'Agbalumo', system-ui;
     color:  #f1926c;
-    
+}
+.add-bookbtn{
+    border-radius: 5px;
+    background:#f38154;
+    font-family: 'Agbalumo', system-ui;
+    padding: 5px;
 }
 
-.shop-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    gap: 1.5rem;
-}
-
-.product-box {
-    position: relative;
-}
-
-.product-box:hover {
-    padding: 10px;
-    border: 1px solid var(--text-color);
-    transition: .4s;
-}
-
-.product-img {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    margin-bottom: .5rem;
-}
-
-.product-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: .5rem;
-}
-
-.product-price {
-    font-weight: 500;
-}
-
-.add-cart {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: var(--text-color);
-    color: var(--bg-color);
-    padding: 10px;
-    cursor: pointer;
-}
-
-.add-cart:hover {
-    background-color: hsl(249, 32%, 17%);
-}
-
-
-
-/* ================ RESPONSIVE & BREAKPOINTS ============= */
-@media (max-width: 1080px) {
-    .nav {
-        padding: 15px;
+@media (min-width:768px) and (max-width:999px) {
+    .box-body{
+        margin-left: 100px;
     }
-
-    .container {
-        width: 90%;
-        margin: 0 auto;
+}
+@media (min-width:1000px) {
+    .box-body{
+        margin-left: 200px;
     }
-
-    section {
-        padding: 3rem 0 2rem;
-    }
-
-    .shop {
-        margin-top: 2rem;
+} 
+@media (min-width:576px) {
+    .book-display{
+        margin-top: 200px;
     }
 }
 
-/* For Medium Devices */
-@media (max-width: 400px) {
-    .nav {
-        padding: 11px;
-    }
 
-    /* .logo {
-        font-size: 1rem;
-    } */
 
-    .cart {
-        width: 320px;
-    }
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
 }
 
-/* For Small Devices */
-@media (max-width: 360px) {
-    .shop {
-        margin-top: 1rem;
-    }
-
-    .cart {
-        width: 280px;
-    }
-}
-@media (max-width:400px) {
-    .cart{
-        margin-top: 20px
-    }
-    
-}
-
-
-
-
+body {
+    height: 100vh;
+    animation: change 10s infinite ease-in-out;
+} */
 
 header {
     width: 100%;
@@ -334,8 +61,6 @@ header {
     z-index: 99;
     background: bisque;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    margin-top: -32px;
-   
 }
 
 #chk1 {
@@ -415,7 +140,6 @@ header ul li a:hover {
 header .menu {
     font-size: 2.5em;
     display: none;
-   
 }
 
 #button {
@@ -686,5 +410,3 @@ header .menu {
         margin-right: 30px;
     }
 }
-
-

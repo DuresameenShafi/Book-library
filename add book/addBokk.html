@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addBook.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Goblin+One&family=Poppins:ital,wght@0,300;0,500;0,700;0,800;0,900;1,500&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="">
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo">
+            <a class="navbar-brand logo" href="#">BookHub</a>
+        </div>
+        <ul class="nav-box">
+            <li class="nav-menu"><a href="/HOME/home.html">Home</a></li>
+            <li class="nav-menu"><a href="/ADD TO CART/addToCart.html">Shop</a></li>
+            <li class="nav-item dropdown drop-box" class="nav-menu">
+                <a class="nav-link dropdown-toggle ms-2 text-dark" id="navhaed" href="#" id="navbarDropdown"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu categories-box" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Urdu (اردو)</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa-solid fa-bars fa-shake" style="color: #111;"></i>
+            </label>
+        </div>
+        <div class="search-box button" id="sign-in">
+            <button type="button" class="btn btn-dark" id="button">sign in</button>
+        </div>
+    </header>
+    <div class="card-group">
+        <div class="card box">
+            <div class="card-body mt-5 box-body">
+                <h5 class="card-title section-title mt-5">Add Books</h5>
+                <p class="card-text mt-5">
+                    <b><i>Author Name:</i></b><br>
+                    <input type="text" id="title-name" class="mt-2">
+                    <b><i>
+                     <p class="mt-3">Book Title:</p>
+                     </i></b>
+                    <input type="text" id="title-field">
+                    <b><i>
+                     <p class="mt-3">Price:</p>
+                    </i></b>
+                    <input type="number" placeholder="PKR" id="price-field"><br>
+                    <b><i>
+                    <p class="mt-3">Image:</p>
+                    </i></b>
+                    <input type="file" id="image-upload">
+                    <img id="preview-image" class="mt-3" style="max-width: 50%;" alt=""><br>
+                    <button class="mt-4 add-bookbtn" type="submit" id="add-to-cart">Add Book</button>
+                </p>
+            </div>
+        </div>
+
+        <div class="card box">
+            <div class="myimg"><label id="upprogress"></label>
+            </div>
+            <div class="card-body book-display">
+                <ul class="card-text" id="shopping-list">
+                    <!-- Existing list items will be added dynamically using JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./addBook.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html> 
