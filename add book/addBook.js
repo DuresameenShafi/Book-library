@@ -37,18 +37,18 @@ buttonEl.addEventListener("click", function () {
     const newItemRef = push(todoDB);
     const newItemKey = newItemRef.key;
 
-    // Use the key to set the data
+
     set(ref(database, `todos/${newItemKey}`), {
-      name:  name,
+      name: name,
       title: title,
       price: price,
       image: image
     });
     clearInputFields();
-        previewImage.style.display = 'none'; // Hide preview after adding book
-    } else {
-        alert("Please enter author name, title, price, and upload an image.");
-    }
+    previewImage.style.display = 'none';
+  } else {
+    alert("Please enter author name, title, price, and upload an image.");
+  }
 });
 
 onValue(todoDB, function (snapshot) {
@@ -79,18 +79,18 @@ function clearShoppingList() {
 function appenItemToShoppingList(item) {
   let itemId = item[0];
   let itemData = item[1];
- 
+
 
   let newLi = document.createElement("li");
   newLi.innerHTML = `<strong>Author Name: </strong>${itemData.name}<br><li><strong>Book Title: </strong>${itemData.title}<br><li><strong>Price:</strong> ${itemData.price}/- Rs`;
-  
+
   if (itemData.image) {
     let img = document.createElement("img");
     img.src = itemData.image;
-    img.style.maxWidth = "100px"; // Adjust as needed
+    img.style.maxWidth = "100px";
     newLi.appendChild(img);
-}
-    
+  }
+
 
   newLi.addEventListener("dblclick", function () {
     let locationToDelete = ref(database, `todos/${itemId}`);
@@ -98,23 +98,22 @@ function appenItemToShoppingList(item) {
   });
 
   shoppingList.append(newLi);
-  
+
 
 }
-// Update your JavaScript code to handle image upload and preview
 
 const imageUpload = document.getElementById('image-upload');
 const previewImage = document.getElementById('preview-image');
 
-// Add event listener to image upload input
-imageUpload.addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    const reader = new FileReader();
 
-    reader.onload = function(e) {
-        previewImage.src = e.target.result;
-        previewImage.style.display = 'block';
-    };
+imageUpload.addEventListener('change', function (event) {
+  const file = event.target.files[0];
+  const reader = new FileReader();
 
-    reader.readAsDataURL(file);
+  reader.onload = function (e) {
+    previewImage.src = e.target.result;
+    previewImage.style.display = 'block';
+  };
+
+  reader.readAsDataURL(file);
 });

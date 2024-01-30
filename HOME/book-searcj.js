@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Load initial data
+
     const initialUrl = "https://openlibrary.org/search.json?q=the+lord+of+the+rings";
     getData(initialUrl);
 });

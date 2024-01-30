@@ -37,7 +37,6 @@ header .logo {
     flex: 1;
     color: #fff;
     margin-left: 50px;
-    /* text-transform: uppercase; */
     font-size: 15px;
 }
 
@@ -81,7 +80,6 @@ header ul li a {
     text-decoration: none;
     color: black;
     font-weight: 600;
-    /* text-transform: uppercase; */
     padding: 10px 15px;
 
 }
@@ -414,15 +412,11 @@ header .menu {
     border-radius: 6px;
 }
 
-/* .search-box {
-    border-radius: 4px;
-} */
-
 
 
 @media (max-width:425px) {
     .add-btn {
-        background-color: #f1926c;
+        background-color: gray;
         font-weight: bold;
         padding: 7px;
         margin-bottom: 30px;
@@ -481,12 +475,6 @@ header .menu {
     .head-2 {
         font-size: 25px !important;
     }
-
-
-    /* .search-box {
-        width: 160px;
-        margin-left: 40px;
-    } */
 }
 
 @media (min-width:321px) and (max-width:375px) {
@@ -499,11 +487,6 @@ header .menu {
     .head-2 {
         font-size: 30px !important;
     }
-
-    /* .search-box {
-        width: 160px;
-        margin-left: 80px;
-    } */
 }
 
 @media (min-width:376px) and (max-width:425px) {
@@ -516,11 +499,6 @@ header .menu {
     .head-2 {
         font-size: 30px !important;
     }
-
-    /* .search-box {
-        width: 190px;
-        margin-left: 80px;
-    } */
 }
 
 @media (min-width:426px) and (max-width:500px) {
@@ -531,11 +509,6 @@ header .menu {
 
 
     }
-
-    /* .search-box {
-        width: 190px;
-        margin-left: 140px;
-    } */
 }
 
 @media (min-width:501px) and (max-width:600px) {
@@ -562,10 +535,7 @@ header .menu {
 
     }
 
-    /* .search-box {
-        width: 270px;
-        margin-left: 220px;
-    } */
+
 }
 
 @media (min-width:701px) and (max-width:767px) {
@@ -576,19 +546,8 @@ header .menu {
 
 
     }
-
-    /* .search-box {
-        width: 300px;
-        margin-left: 260px;
-    } */
 }
 
-@media (min-width:1300px) {
-    /* .search-box {
-        width: 900px !important;
-        margin-left: 260px;
-    } */
-}
 
 @media (max-width:991px) {
 
@@ -635,7 +594,7 @@ header .menu {
     h4 {
         font-size: small !important;
         padding-left: 60px;
-        margin-bottom:40px !important ;
+        margin-bottom: 40px !important;
 
     }
 
@@ -674,7 +633,7 @@ header .menu {
     h4 {
         font-size: large !important;
         padding-left: 60px;
-        margin-bottom:40px !important ;
+        margin-bottom: 40px !important;
     }
 
     .add-btn {
@@ -690,10 +649,7 @@ header .menu {
 
     }
 
-    /* .search-box {
-        width: 29rem;
-        margin-left: 200px;
-    } */
+
 
 }
 
@@ -720,7 +676,7 @@ header .menu {
     h4 {
         font-size: large !important;
         padding-left: 60px;
-        margin-bottom:40px !important ;
+        margin-bottom: 40px !important;
     }
 
     .add-btn {
@@ -735,9 +691,4 @@ header .menu {
 
 
     }
-
-    /* .search-box {
-        width: 29rem;
-        margin-left: 200px;
-    } */
 }

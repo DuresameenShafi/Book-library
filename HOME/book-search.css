@@ -1,37 +1,29 @@
 .container-book {
     max-width: 100%;
-    margin: 20px auto; 
-    padding-left:20px ;
+    margin: 20px auto;
+    padding-left: 20px;
     padding-top: 60px;
     background-color: ghostwhite;
     align-items: center !important;
-    
-}
 
-/* .renderData{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-} */
+}
 
 .search-container {
     margin-bottom: 20px;
     align-items: center;
-    /* background-color: aqua; */
-    /* margin-left: 200px !important; */
 }
 
 #search-input {
     width: 300px;
-    padding: 8px; 
+    padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 13px;
-    
+
 }
 
 #search-btn {
-    /* padding: 8px 16px; */
+
     font-size: 16px;
     background-color: gray;
     color: white;
@@ -39,7 +31,7 @@
     border-radius: 13px;
     cursor: pointer;
     font-family: 'Agbalumo', system-ui;
-   
+
 }
 
 #search-btn:hover {
@@ -55,13 +47,13 @@
     background-color: gainsboro;
     height: 310px;
     width: 150px;
-    
+
 }
 
 .book-card img {
     max-width: 150px;
     height: 170px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     margin-left: 10px;
     float: left;
     border-radius: 20px;
@@ -71,479 +63,548 @@
     margin: 5px 0;
     flex-wrap: wrap;
 }
-.book{
+
+.book {
     font-family: 'Agbalumo', system-ui;
     font-weight: bolder;
     font-size: 5rem !important;
     text-align: center;
 }
- @media (max-width:320px) {
-    
+
+@media (max-width:320px) {
+
     #search-input {
         width: 10rem;
         margin-left: 0.5rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 1.7rem !important;
-        width:200px ;
+        width: 200px;
         height: 400px;
     }
+
     .book-card img {
         width: 140px !important;
         height: 200px;
     }
 
-.container-book{
-    margin-top: 400px !important;
+    .container-book {
+        margin-top: 400px !important;
+    }
+
+    .book {
+        font-size: 2rem !important;
+    }
+
 }
-.book{
-    font-size: 2rem !important;
-}
-    
-}
+
 @media (min-width:321px) and (max-width:375px) {
     #search-input {
         width: 12.7rem !important;
-         /* margin-left: 1rem !important;  */
-     }
+
+    }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 3.3rem !important;
-        width:220px ;
+        width: 220px;
         height: 350px;
     }
+
     .book-card img {
         width: 200px !important;
         height: 200px;
     }
-    
-.container-book{
-    margin-top: 400px !important;
-    
+
+    .container-book {
+        margin-top: 400px !important;
+
+    }
+
+    .book {
+        font-size: 2.5rem !important;
+    }
 }
-.book{
-    font-size: 2.5rem !important;
-}}
- @media (min-width:376px) and (max-width:425px ) {
+
+@media (min-width:376px) and (max-width:425px) {
     #search-input {
         width: 15rem !important;
-         margin-left: 1rem !important; 
+        margin-left: 1rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
-         margin-left: 4rem !important; 
+        margin-left: 4rem !important;
         width: 240px;
         height: 380px;
     }
+
     .book-card img {
         width: 500px !important;
         height: 200px;
-         margin-left:20px ; 
+        margin-left: 20px;
     }
-    
 
-    .container-book{
+
+    .container-book {
         margin-top: 400px !important;
-        
+
     }
-    .book{
+
+    .book {
         font-size: 3rem !important;
     }
-    
-    
-} 
-@media (min-width:426px) and (max-width:499px ) {
+
+
+}
+
+@media (min-width:426px) and (max-width:499px) {
     #search-input {
         width: 18rem !important;
-         margin-left: 1rem !important; 
+        margin-left: 1rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 7rem !important;
-           width: 230px;
-           height: 380px;
-          
-       }
-    
+        width: 230px;
+        height: 380px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:20px ;
+        margin-left: 20px;
         margin-top: 5px;
     }
-    .container-book{
+
+    .container-book {
         margin-top: 400px !important;
-        
+
     }
-    .book{
+
+    .book {
         font-size: 3rem !important;
     }
-    
-}  
 
-@media (min-width:500px) and (max-width:600px){
-    .renderData{
+}
+
+@media (min-width:500px) and (max-width:600px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
     }
+
     #search-input {
         width: 22.5rem !important;
-         margin-left: 1rem !important; 
+        margin-left: 1rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 1.1rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .container-book{
+
+    .container-book {
         margin-top: 380px !important;
-        
+
     }
-    .book{
+
+    .book {
         font-size: 4rem !important;
     }
-    
+
 }
-@media (min-width:601px) and (max-width:700px){
-    .renderData{
+
+@media (min-width:601px) and (max-width:700px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0.1rem;
     }
+
     #search-input {
         width: 27.5rem !important;
-         margin-left: 2.7rem !important; 
+        margin-left: 2.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 3.7rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .container-book{
+
+    .container-book {
         margin-top: 380px !important;
-        
+
     }
-    .book{
+
+    .book {
         font-size: 4rem !important;
     }
 }
 
-@media (min-width:701px) and (max-width:800px){
-    .renderData{
+@media (min-width:701px) and (max-width:800px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 31.5rem !important;
-         margin-left: 2.7rem !important; 
+        margin-left: 2.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 1rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 4rem !important;
     }
-    
+
 }
+
 @media (min-width:701px) and (max-width:767px) {
-    .container-book{
+    .container-book {
         margin-top: 380px;
     }
-    
+
 }
 
-@media (min-width:801px) and (max-width:900px){
-    .renderData{
+@media (min-width:801px) and (max-width:900px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 38.5rem !important;
-         margin-left: 2.7rem !important; 
+        margin-left: 2.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 1.8rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 4.5rem !important;
     }
 }
 
-@media (min-width:901px) and (max-width:1000px){
-    .renderData{
+@media (min-width:901px) and (max-width:1000px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 39.5rem !important;
-         margin-left: 2.7rem !important; 
+        margin-left: 2.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
         margin-left: 2.8rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 4.5rem !important;
     }
-    
-    
+
+
 }
 
-@media (min-width:1001px)and (max-width:1100px){
-    .renderData{
+@media (min-width:1001px)and (max-width:1100px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 38.5rem !important;
-         margin-left: 3.7rem !important; 
+        margin-left: 3.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
-        margin-left:2rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        margin-left: 2rem !important;
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 4.8rem !important;
     }
-}  
+}
 
-@media (min-width:1101px)and (max-width:1200px){
-    .renderData{
+@media (min-width:1101px)and (max-width:1200px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 45.5rem !important;
-         margin-left: 10.7rem !important; 
+        margin-left: 10.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
-        margin-left:2rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        margin-left: 2rem !important;
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
-        }
-        .book{
-            font-size: 5rem !important;
-        }
-}  
+    }
+
+    .book {
+        font-size: 5rem !important;
+    }
+}
 
 
-@media (min-width:1201px)and (max-width:1300px){
-    .renderData{
+@media (min-width:1201px)and (max-width:1300px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 45.5rem !important;
-         margin-left: 10.7rem !important; 
+        margin-left: 10.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
-        margin-left:2rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        margin-left: 2rem !important;
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 4rem !important;
     }
-}  
-@media (min-width:1301px)and (max-width:1500px){
-    .renderData{
+}
+
+@media (min-width:1301px)and (max-width:1500px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 45.5rem !important;
-         margin-left: 10.7rem !important; 
+        margin-left: 10.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
-        margin-left:2rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        margin-left: 2rem !important;
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 4rem !important;
     }
-}  
-@media (min-width:1501px){
-    .renderData{
+}
+
+@media (min-width:1501px) {
+    .renderData {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 0.2rem;
     }
+
     #search-input {
         width: 45.5rem !important;
-         margin-left: 10.7rem !important; 
+        margin-left: 10.7rem !important;
     }
+
     #search-btn {
         width: 70px;
         padding: 8px;
 
     }
+
     .book-card {
-        margin-left:2rem !important;
-           width: 200px;
-           height: 410px;
-          
-       }
-    
+        margin-left: 2rem !important;
+        width: 200px;
+        height: 410px;
+
+    }
+
     .book-card img {
         width: 400px !important;
         height: 200px;
-        margin-left:1px ;
+        margin-left: 1px;
         margin-top: 5px;
     }
-    .book{
+
+    .book {
         font-size: 6rem !important;
     }
-}  
-.book-para{
+}
+
+.book-para {
     color: black !important;
     text-align: center;
 }
