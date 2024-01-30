@@ -12,13 +12,14 @@
     font-weight: 900 !important;
     margin-bottom: 1.5rem;
     font-family: 'Agbalumo', system-ui;
-    color:  #f1926c;
+    color:  black;
 }
 .add-bookbtn{
     border-radius: 5px;
-    background:#f38154;
+    background:black;
     font-family: 'Agbalumo', system-ui;
     padding: 5px;
+    color: #fff;
 }
 
 @media (min-width:768px) and (max-width:999px) {
@@ -59,7 +60,7 @@ header {
     align-items: center;
     position: fixed;
     z-index: 99;
-    background: bisque;
+    background: gainsboro;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 

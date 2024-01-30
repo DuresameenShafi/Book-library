@@ -1,5 +1,5 @@
 /* Globals  */
-/* * {
+ * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     scroll-padding: 2rem;
-} */
+} 
 
 /* Variables  */
 :root {
@@ -31,6 +31,7 @@
 
 section {
     padding: 4rem 0 3rem;
+    
 } 
 
 body {
@@ -48,9 +49,7 @@ img {
     top: 100px;
     left: 0;
     width: 100%;
-
-    
-     z-index: 100; 
+    z-index: 100; 
 }
 
 .nav {
@@ -91,9 +90,9 @@ img {
     overflow-y: auto;
     overflow-x: hidden;
     padding: 20px;
-    background-color: bisque;
+    background-color: gainsboro;
     box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--text-color);
     transition: 1.5s;
 }
 
@@ -181,7 +180,7 @@ img {
     margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
     border: none;
-    background-color: #f88659;
+    background-color: black;
     color: var(--bg-color);
     font-size: 1rem;
     font-weight: 500;
@@ -214,7 +213,8 @@ img {
     text-align: center;
     margin-bottom: 1.5rem;
     font-family: 'Agbalumo', system-ui;
-    color:  #f1926c;
+    color:  black;
+   
     
 }
 
@@ -226,6 +226,7 @@ img {
 
 .product-box {
     position: relative;
+    
 }
 
 .product-box:hover {
@@ -332,7 +333,7 @@ header {
     align-items: center;
     position: fixed;
     z-index: 99;
-    background: bisque;
+    background: gainsboro;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     margin-top: -32px;
    

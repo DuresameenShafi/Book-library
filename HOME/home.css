@@ -18,7 +18,7 @@ header {
     align-items: center;
     position: fixed;
     z-index: 99;
-    background: bisque;
+    background: gainsboro;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -376,7 +376,7 @@ header .menu {
 
 .head-container {
     height: 558px;
-    background: rgb(241, 146, 108);
+    background: black
 }
 
 .head-img {
@@ -385,7 +385,7 @@ header .menu {
 }
 
 .add-btn {
-    background-color: black !important;
+    background-color: gray !important;
     color: #fff !important;
     font-weight: bold;
     padding: 8px;
@@ -414,9 +414,9 @@ header .menu {
     border-radius: 6px;
 }
 
-.search-box {
+/* .search-box {
     border-radius: 4px;
-}
+} */
 
 
 
@@ -483,10 +483,10 @@ header .menu {
     }
 
 
-    .search-box {
+    /* .search-box {
         width: 160px;
         margin-left: 40px;
-    }
+    } */
 }
 
 @media (min-width:321px) and (max-width:375px) {
@@ -500,10 +500,10 @@ header .menu {
         font-size: 30px !important;
     }
 
-    .search-box {
+    /* .search-box {
         width: 160px;
         margin-left: 80px;
-    }
+    } */
 }
 
 @media (min-width:376px) and (max-width:425px) {
@@ -517,10 +517,10 @@ header .menu {
         font-size: 30px !important;
     }
 
-    .search-box {
+    /* .search-box {
         width: 190px;
         margin-left: 80px;
-    }
+    } */
 }
 
 @media (min-width:426px) and (max-width:500px) {
@@ -532,10 +532,10 @@ header .menu {
 
     }
 
-    .search-box {
+    /* .search-box {
         width: 190px;
         margin-left: 140px;
-    }
+    } */
 }
 
 @media (min-width:501px) and (max-width:600px) {
@@ -547,10 +547,10 @@ header .menu {
 
     }
 
-    .search-box {
+    /* .search-box {
         width: 190px;
         margin-left: 160px;
-    }
+    } */
 }
 
 @media (min-width:601px) and (max-width:700px) {
@@ -562,10 +562,10 @@ header .menu {
 
     }
 
-    .search-box {
+    /* .search-box {
         width: 270px;
         margin-left: 220px;
-    }
+    } */
 }
 
 @media (min-width:701px) and (max-width:767px) {
@@ -577,17 +577,17 @@ header .menu {
 
     }
 
-    .search-box {
+    /* .search-box {
         width: 300px;
         margin-left: 260px;
-    }
+    } */
 }
 
 @media (min-width:1300px) {
-    .search-box {
+    /* .search-box {
         width: 900px !important;
         margin-left: 260px;
-    }
+    } */
 }
 
 @media (max-width:991px) {
@@ -690,10 +690,10 @@ header .menu {
 
     }
 
-    .search-box {
+    /* .search-box {
         width: 29rem;
         margin-left: 200px;
-    }
+    } */
 
 }
 
@@ -736,8 +736,8 @@ header .menu {
 
     }
 
-    .search-box {
+    /* .search-box {
         width: 29rem;
         margin-left: 200px;
-    }
+    } */
 }

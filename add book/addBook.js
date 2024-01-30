@@ -26,6 +26,7 @@ const priceField = document.getElementById('price-field');
 const buttonEl = document.getElementById('add-to-cart');
 const shoppingList = document.getElementById('shopping-list');
 
+
 buttonEl.addEventListener("click", function () {
   let name = titleName.value
   let title = titleField.value;
@@ -97,6 +98,8 @@ function appenItemToShoppingList(item) {
   });
 
   shoppingList.append(newLi);
+  
+
 }
 // Update your JavaScript code to handle image upload and preview
 
