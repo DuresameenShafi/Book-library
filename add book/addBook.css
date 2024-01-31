@@ -148,7 +148,7 @@
          position: fixed;
          top: 81px;
          right: -100%;
-         background: gainsboro;
+         background: rgba(0, 0, 0, 0.9);
          height: calc(120vh - 100px);
          width: 100%;
          flex-direction: column;
@@ -156,14 +156,21 @@
          transition: right 0.5s linear;
 
      }
+     #navhaed{
+        color: #fff !important;
+     }
 
      .nav-menu {
          padding: 30px;
      }
+     header ul li a{
+        color: #fff;
+        font-weight: bold;
+    }
 
      header ul li a:hover {
          border-bottom: 2px solid #fff;
-         color: black;
+         
      }
 
      header .menu {

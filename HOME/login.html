@@ -24,7 +24,7 @@
                 <input type="password" name="pswd" placeholder="Password" required="" id="passwordInp">
 
                 <button type="submit">Get started</button>
-                <button type="submit" id="google-login-btn">
+                <button type="submit"  id="google-login-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" height="38" viewBox="0 0 48 48"
                         class="mx-1" id="g-logo">
                         <path fill="#FFC107"
@@ -93,9 +93,9 @@
                     console.log(user);
                     window.location.href = "home.html"
                 })
-                .catch((error) => {
+                 .catch((error) => {
                     const errorCode = error.code
-                    const errorMessage = error.message;
+                   const errorMessage = error.message;
                 })
         })
 

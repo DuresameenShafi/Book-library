@@ -46,7 +46,7 @@
             </label>
         </div>
         <div class="search-box button" id="sign-in">
-            <button type="button" class="btn btn-dark" id="button">sign out</button>
+            <button type="button" class="btn btn-dark" id="signoutbutton">sign out</button>
         </div>
     </header>
 
@@ -106,9 +106,32 @@
 
 
     <script src="./addBook.js" type="module"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script>
+        let UserCreds = JSON.parse(sessionStorage.getItem("user-creds"))
+        let UserInfo = JSON.parse(sessionStorage.getItem("user-info"))
+        let SignoutBtn = document.getElementById("signoutbutton")
+
+
+        let Signout = () => {
+            sessionStorage.removeItem("user-creds")
+            sessionStorage.removeItem("user-info")
+            window.location.href = '/HOME/login.html'
+        }
+
+        let CheckCred = () => {
+            if (!sessionStorage.getItem("user-creds"))
+                window.location.href = '/HOME/login.html'
+
+        }
+
+        window.addEventListener('load', CheckCred)
+        SignoutBtn.addEventListener('click', Signout)
+
+    </script>
 
 </body>
 

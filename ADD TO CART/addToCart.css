@@ -403,7 +403,7 @@ header .menu {
         position: fixed;
         top: 81px;
         right: -100%;
-        background: bisque;
+        background: rgba(0, 0, 0, 0.9);
         height: calc(120vh - 100px);
         width: 100%;
         flex-direction: column;
@@ -415,10 +415,17 @@ header .menu {
     .nav-menu {
         padding: 30px;
     }
+    header ul li a{
+        color: #fff;
+    }
+    #navhaed{
+        color: #fff !important;
+     }
+
 
     header ul li a:hover {
         border-bottom: 2px solid #fff;
-        color: black;
+       
     }
 
     header .menu {
