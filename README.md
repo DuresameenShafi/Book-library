@@ -13,7 +13,7 @@ Once logged in, users are redirected to the home page. This page features a navb
 
 Clicking on the "Shop" option enables users to add books to their cart and proceed to place orders.
 
-Within the home.html page, there's a hero section. Inside this section, there's an "Add Book" button, allowing users to input details of a book. The data entered here is stored 
+Within the home page, there's a hero section. Inside this section, there's an "Add Book" button, allowing users to input details of a book. The data entered here is stored 
 in Firebase Realtime Database.
 
 Beneath the hero section, a search bar is provided, allowing users to search for any book. Additionally, various types of books are displayed below the search bar. 
