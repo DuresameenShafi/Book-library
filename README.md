@@ -9,7 +9,7 @@
 I created a website using JavaScript and Firebase. Initially, I designed a login page using Firebase Authentication, where users can log in with their Gmail or Google accounts.
 Additionally, users have the option to reset their passwords if needed.
 
-Once logged in, users are redirected to the home.html page. This page features a navbar, where users can find a signout button and a "Shop" option.
+Once logged in, users are redirected to the home page. This page features a navbar, where users can find a signout button and a "Shop" option.
 
 Clicking on the "Shop" option enables users to add books to their cart and proceed to place orders.
 
